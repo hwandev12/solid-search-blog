@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -34,6 +35,7 @@
       type="image/png"
       href="https://pngimg.com/image/4899"
     />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
   </head>
   <body>
     {% include 'includes/navbar.html' %}
